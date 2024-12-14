@@ -1,0 +1,15 @@
+import { Pool } from "pg";
+
+// Konfigurasi koneksi ke database PostgreSQL
+const pool = new Pool({
+  host: "aws-0-ap-southeast-1.pooler.supabase.com",
+  user: "postgres.jntizeewrjlpptqvvrdr",
+  database: "postgres",
+  password: "X@@2kNtZ3*HrUFy",
+  port: "6543",
+  max: 20,
+  idleTimeoutMillis: 2000,
+  connectionTimeoutMillis: 2000,
+});
+
+export default pool;

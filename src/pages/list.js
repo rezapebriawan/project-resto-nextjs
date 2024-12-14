@@ -1,6 +1,7 @@
 import { Hero, Latest, Navbar, Popular, Subscribe, Testimonials, Footer } from "@/components";
+import '../app/globals.css';
 
-export default function Home() {
+export default function list() {
   return (
     <div>
       <main className="bg-white">
@@ -17,5 +18,3 @@ export default function Home() {
     </div>
   );
 };
-
-// X@@2kNtZ3*HrUFy
