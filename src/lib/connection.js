@@ -1,4 +1,3 @@
-import { Pool } from "pg";
 
 // Konfigurasi koneksi ke database PostgreSQL
 const pool = new Pool({
