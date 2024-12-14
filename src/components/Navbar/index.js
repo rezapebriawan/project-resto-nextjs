@@ -26,7 +26,7 @@ const Navbar = () => {
         <div className='pl-10'>
           <ul className='flex justify-center items-center'>
             <li><a href='#' className='mr-8'>Home</a></li>
-            <li><a href='/list' className='mr-8'>BestSeller</a></li>
+            <li><a href='#' className='mr-8'>BestSeller</a></li>
             <li><a href='#' className='mr-8'>Category</a></li>
           </ul>
         </div>
